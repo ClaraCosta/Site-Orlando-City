@@ -1,10 +1,14 @@
 header {
-    height: 200px;
+    height: 150px;
     width: 100%;
-    background-color: black;
+    background-color: #5a2b8f;
 }
 
 header .container {
-    color: #fff;
-    background-color: #666;
+    
+}
+
+header .header-black{
+    height: 40px;
+    background-color: #000;
 }
