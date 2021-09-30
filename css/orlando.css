@@ -1,3 +1,7 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     height: 150px;
     width: 100%;
@@ -119,3 +123,41 @@ header #logotipo{
     position: absolute;
     top: -20px;
 }
+
+header #menu a{
+    color: white;
+    padding: 10px, 25px;
+    text-decoration: none;
+
+}
+
+header #menu{
+    position: absolute; right: 0;
+    display: inline-block;
+    margin-top: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    
+
+
+}
+
+header #menu a:hover{
+    border-radius: 8px;
+    background-color:#ccafee;
+    transition: 0.3s;
+    color: #000;
+
+}
+
+header nav a{
+    margin-right: 40px;
+}
+
+header nav a #search{
+    border-radius: 8px;
+    outline-color: white;
+    box-shadow: inset 1px 4px 7px rgba(38, 59, 59, 0.979);
+}
+
+ 
