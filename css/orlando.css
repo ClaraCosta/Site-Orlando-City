@@ -143,7 +143,7 @@ header #menu{
 }
 
 header #menu a:hover{
-    border-radius: 8px;
+    border-radius: 3px;
     background-color:#ccafee;
     transition: 0.3s;
     color: #000;
