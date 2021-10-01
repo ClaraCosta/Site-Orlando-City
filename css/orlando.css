@@ -18,6 +18,7 @@ header .container {
 }
 
 header .header-black {
+    width: 100%;
     height: 40px;
     background-color: #000;
 }
@@ -213,4 +214,42 @@ section #banner small {
     font-size: 32px;
     color: #ffff;
     text-shadow: 1px 1px black;
+}
+
+#news h2 {
+    font-family: sans-serif,Arial;
+    text-align: center;
+    color: #11091a;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+#news hr{
+    margin: 0 auto;
+    border: #350031 solid 2px;
+    margin-bottom: 100px;
+    width: 500px;
+
+}
+
+.row-thumbnails{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.row-thumbnails h3{
+    font-display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+}
+
+div .noticia-1{
+    font-size: 16px;
+    width: 290px;
+    flex-wrap: wrap;
+
 }
