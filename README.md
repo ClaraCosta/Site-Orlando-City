@@ -12,3 +12,7 @@
   - Css
   - Javascript
   - Bootstrap, jQuery
+  
+> Observação: 
+> O projeto não está responsivo, foi feito apenas para relembrar alguns conceitos básicos 
+> de algumas tecnologias citadas acima.
