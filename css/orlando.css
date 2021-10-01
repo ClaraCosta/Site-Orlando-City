@@ -113,7 +113,7 @@ header .header-black li.club-21{
 
 
 header .header-black li a{
-    width: 32px;
+    width: 42px;
     height: 32px;
     display: block;
 
@@ -121,7 +121,8 @@ header .header-black li a{
 
 header #logotipo{
     position: absolute;
-    top: 18px;
+    top: 29px;
+    left: -2.5em;
 }
 
 header #menu a{
@@ -167,15 +168,23 @@ header nav div.search{
 .btn{
     border: 2px 3px 4px 4px;
     background-color: #131212;
-    border-color: #white;
-    color: white;
     font-weight: 800;
 
 }
 
 .btn:hover {
-    color: #000000;
-    background-color: white;
-    border-color: #5a2b8f;
+    color: #ffffff;
+    border-color: #ffffff;
 
+}
+
+#search {
+    box-sizing: border-box;
+    border-style:dotted;
+    border-radius: 8px;
+}
+
+#search-btn {
+    color: #ffffff;
+    border-shadow: rgba(0, 0, 0, 0.25rem);
 }
