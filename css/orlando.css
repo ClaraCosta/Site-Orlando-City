@@ -145,7 +145,7 @@ header #menu{
 
 header #menu a:hover{
     border-radius: 3px;
-    background-color:#fdfdfd;
+
     transition: 0.3s;
     color: #000;
 
@@ -172,11 +172,6 @@ header nav div.search{
 
 }
 
-.btn:hover {
-    color: #ffffff;
-    border-color: #ffffff;
-
-}
 
 #search {
     box-sizing: border-box;
@@ -186,5 +181,6 @@ header nav div.search{
 
 #search-btn {
     color: #ffffff;
-    border-shadow: rgba(0, 0, 0, 0.25rem);
+    border-radius: 25px;
 }
+
