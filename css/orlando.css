@@ -121,7 +121,7 @@ header .header-black li a{
 
 header #logotipo{
     position: absolute;
-    top: -20px;
+    top: 18px;
 }
 
 header #menu a{
@@ -144,7 +144,7 @@ header #menu{
 
 header #menu a:hover{
     border-radius: 3px;
-    background-color:#ccafee;
+    background-color:#fdfdfd;
     transition: 0.3s;
     color: #000;
 
@@ -154,10 +154,17 @@ header nav a{
     margin-right: 40px;
 }
 
-header nav a #search{
-    border-radius: 8px;
-    outline-color: white;
-    box-shadow: inset 1px 4px 7px rgba(38, 59, 59, 0.979);
+header nav ul.input-group{
+    position: relative;
+    width: 100vw;
 }
 
+header nav div.search{
+    width: 100%;
+    float: end;
+}
  
+.btn-primary{
+    background-color: #421e6b;
+
+}
