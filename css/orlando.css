@@ -136,14 +136,18 @@ header #menu a{
 
 }
 
-header #menu{
-    position: absolute; right: 0;
-    display: inline-block;
+#menu{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
     margin-top: 35px;
     font-family: 'Lato', sans-serif;
     font-weight: 800;
+    flex-wrap: nowrap;
+}
 
-
+#menu ul{
+    flex-wrap: nowrap;
 }
 
 header #menu a:hover{
@@ -154,11 +158,11 @@ header #menu a:hover{
 }
 
 header nav a{
-    margin-right: 40px;
+    margin-right: 38px;
 }
 
-header nav ul.input-group{
-    position: relative;
+header nav ul{
+    display: flex;
     width: 100vw;
 }
 
@@ -235,16 +239,18 @@ section #banner small {
 .row-thumbnails{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-left: 50px;
 
 }
 
 .row-thumbnails h3{
-    font-display: flex;
+    font-weight: bold;
+    color: #5e299a;
     flex-wrap: wrap;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 div .noticia-1{
@@ -275,6 +281,15 @@ div .noticia-4{
     flex-wrap: wrap;
     margin: 20px;
 }
+
+.row-thumbnails time{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
 
 @media(max-width:400px){
     #banner h1{
