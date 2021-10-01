@@ -164,7 +164,18 @@ header nav div.search{
     float: end;
 }
  
-.btn-primary{
-    background-color: #421e6b;
+.btn{
+    border: 2px 3px 4px 4px;
+    background-color: #131212;
+    border-color: #white;
+    color: white;
+    font-weight: 800;
+
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: white;
+    border-color: #5a2b8f;
 
 }
