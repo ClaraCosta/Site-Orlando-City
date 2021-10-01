@@ -1,6 +1,6 @@
   <img src="img/orlando-city-logo.png" align="right" height="150em">
 
- ## Site Orlando Pride
+ ## Site Orlando City
 > Repositório voltado para o desenvolvimento de um ambiente do time de futebol Orlando City. 
 > Este documento tem fim excluisivamente de ser voltado para estudos.
 
